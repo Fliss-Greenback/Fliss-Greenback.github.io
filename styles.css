@@ -9,11 +9,17 @@ body {
  }
 
 h1 {
-    color: rebeccapurple;
+    color: white;
     font-size: 40px;
     font-family: sans-serif;  
-  
-  }
+    }
+p {
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 .purple-text {
   color: purple;
 }
