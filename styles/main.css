@@ -8,20 +8,13 @@ body {
    }
 
    h1 {
-    color: white;
+    color: rebeccapurple;
     font-size: 40px;
     font-family: sans-serif;  
     }
 p {
-  color: whitesmoke;
+  color: rebeccapurple;
   font-size: 16px;
   font-family: sans-serif;
   text-align: center;
 }
-body {;
-  background-color:rebeccapurple;
-  margin: 0 auto;
-  text-indent: -9999px;
-  width: 981px;
-  height: 180px;
- }
