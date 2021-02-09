@@ -1,25 +1,134 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="utf-8">
-            <h1>How to learn to code while also running a startup</h1>
-    <link rel="stylesheet" href="main.css">
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <style>
-  body {background-color: rebeccapurple;}
-  p {color: black;}
-  h1 {color: black;}
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: purple;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
 </style>
+</head>
+<body>
 
-   </head>
-    <title>My blog</title>
-  <body>
-    <h1>Kia ora</h1> 
-    <p> My name is Fliss and this is my blog.</p>
-    <p> Here I will share the journey of deciding to learn how to code as a non-coding founder of a tech startup in Aotearoa
-      New Zealand.
-     </p>
+<div class="header">
+  <h2>HOW TO BECOME A DEVELOPER (AND RUN YOUR STARTUP)</h2>
+</div>
 
-  </body>
-  </html>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>YOU CAN DO IT ALL!</h2>
+      <h5>Learning and Growing, Jan 09, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Thought you were busy??</p>
+      <p>Becoming an organisational demi-god/goddess while maintaining your sanity and actually achieving the endless shit on your lists is marginally tricky.  Simply not having enough hours in the day to do everything on your list.
+        Dev Academy has been amazing for teaching more about the importance of goal setting, planning, timeboxing and reflection. This gives space and time to ensure you're able to end the day with a sense of achievement - and even if you don't tick off the goal scoring every day, also the opportunity to reflect on why.
+        Reflection is key for improvement and so that we don't make the same mistakes over and over again. (Einstein reckoned that was insanity).
+      <b>        
+      </b>
+      <p>Understanding that it's okay to move between tasks (it's probably more productive), particularly if you're struggling to take in information or apply it, is really key to not beating yourself up.
+      Having a plan which breaks the problem up into smaller sub-projects can make it much more  realistic and achievable.
+      </p>
+      </p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
 
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
