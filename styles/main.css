@@ -44,6 +44,7 @@ body {
     max-height: 100%;
     max-width: auto;
     padding: 20px;
+    border-radius: 10px;
     }
     
   /* Add a card effect for articles */
@@ -80,6 +81,15 @@ body {
     text-align: center
 }
   
+#container {
+  background-color: silver;
+  color: black;
+  padding: 20px;
+}
+
+#main {
+  margin: 50px 200px 50px 200px;
+}
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
