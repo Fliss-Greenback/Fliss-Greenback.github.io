@@ -1,6 +1,8 @@
 body {
     padding: 20px;
     background: #dd91d9;
+    margin-left:auto;
+    margin-right: auto;
   }
   
   /* Header/Blog Title */
@@ -70,6 +72,13 @@ body {
     text-align: center;
     margin: auto;
   }
+
+  #header {
+    background-color: indigo;
+    color: white;
+    padding: 30px;
+    text-align: center
+}
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
