@@ -7,8 +7,8 @@ body {
   
   /* Header/Blog Title */
   .header {
-    padding: 30px;
-    font-size: 40px;
+    padding: 0px;
+    font-size: 60px;
     text-align: center;
     background: white;
   }
@@ -63,7 +63,7 @@ body {
   
   /* Footer */
   .footer {
-    padding: 20px;
+    padding: auto;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
@@ -85,7 +85,7 @@ body {
 #container {
   background-color: silver;
   color: black;
-  padding: 20px;
+  padding-top: 0px;
   border-radius: 10px;
 }
 
@@ -93,6 +93,7 @@ body {
   margin: 50px 200px 50px 200px;
   padding: 20px;
 }
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
