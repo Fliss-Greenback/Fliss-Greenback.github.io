@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What's the difference between margin, border and padding </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.main {
+  text-align: center;
+}
+
+</style>
+
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="../blog/sprint2-technical.html">Technical</a>
+      <a class="active" href="#core">Core</a>
+      <a href="#about">Wins</a>
+    </div>
+    <div style="padding-left:16px"></div>
+    
+    <div id="container">
+      <div id="header">
+      <h2>CORE LEARNINGS</h2>      </div>
+    <div id=main>
+    <h1> What is the difference between margin, border and padding?</h1>
+    <br>
+  <p>The main difference between margin and padding is that <strong>margin</strong> helps to <strong>create space around the element outside the border</strong>, 
+    <p>while <strong>padding</strong> helps to <strong>create space around the content inside the border.</strong></p>      
+    <br>
+    <img src="../images/cssmarginandpadding.png" alt="Margin, border and padding example"/>
+    <br>
+  <p>My attempt at describing the same thing is below.  Use padding to create more space inside elements around the content (e.g. make fatter boxes).
+    <br>Use margins to increase the space from the edge of the browser page to the elements containing content.
+    <br>
+    <img src="../images/fliss margin.png" alt="Fliss margin example"/>
+  </p>
+  </div>
+</div>
+  </body>
+</html>
