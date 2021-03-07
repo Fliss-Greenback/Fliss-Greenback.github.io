@@ -1,17 +1,37 @@
-# Minesweeper
+## Welcome to GitHub Pages
 
-This challenge has you create a clone of the desktop game Minesweeper:
+You can use the [editor on GitHub](https://github.com/Fliss-Greenback/Fliss-Greenback.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-![Old-school Minesweeper](minesweeper.jpg)
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-Yours will look a little different, but behave in much the same way. The goal is to mark all the mines without setting any off.
+### Markdown
 
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-## A little help?
+```markdown
+Syntax highlighted code block
 
-We don't want you to have to write the whole game. Your primary goal is to learn more about objects and arrays: how to access properties, how to loop through arrays of objects, and so on.
+# Header 1
+## Header 2
+### Header 3
 
-To help out, we've included two JavaScript files which do most of the heavy lifting for you. We _do not_ expect you to understand everything that's in them! In fact, you should be able to complete the whole challenge without even glancing inside them. (If you want to look, they're in the `lib` directory.)
+- Bulleted
+- List
 
-As you develop your program, you should see little hints appear near the top of the browser window. These are designed to guide you through creating your `board` object. The `board` object is used by the provided code to make the rest of the game work.
+1. Numbered
+2. List
 
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fliss-Greenback/Fliss-Greenback.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
